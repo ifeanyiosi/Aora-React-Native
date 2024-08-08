@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "react-native-1",
-    "slug": "react-native-1",
+    "name": "Aora",
+    "slug": "aora",
+    
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -16,9 +17,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ifeanyi.aora",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        
       }
     },
     "web": {
